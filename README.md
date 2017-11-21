@@ -1,16 +1,21 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+### Description & Motivation
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is the final project of the [Google Developer Challenge Scholarship](https://www.udacity.com/google-scholarships), powered by Google and Udacity. I am on the Front End Web Developer - Beginner track. The course taught HTML, CSS, vanilla JavaScript and some jQuery, all on an introductory level.
 
-## Instructions
+I found this Pixel Art Maker project challenging, because I only started learning JavaScript and programming about a month ago. Some of the requirements were:
 
-To get started, open `designs.js` and start building out the app's functionality.
+* To use loops to create the grid, and to determine grid size based on user input.
+* To add event listeners to the relevant DOM elements, so color values and table sizes could be dynamically set by user.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+On top of that, I decided to use this project to also practice the BEM methodology, and work on my Sass/SCSS skills.
 
-## Contributing
+### Tech/framework used
+Made with:
+* HTML
+* CSS
+* Sass / SCSS
+* jQuery
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+![Screenshot of the Pixel Art Maker Project](screenshot.png)
