@@ -1,10 +1,9 @@
-var widthValue = $('#js-inputWidth').val();
-var heightValue = $('#js-inputHeight').val();
-
 function makeGrid() {
   var myTable = $('#js-pixelCanvas');
   var inputWidth = $('#js-inputWidth');
   var inputHeight = $('#js-inputHeight');
+  var widthValue = $('#js-inputWidth').val();
+  var heightValue = $('#js-inputHeight').val();
 
   inputHeight.on("change", function() { heightValue = $(this).val(); });
   inputWidth.on("change", function() { widthValue = $(this).val(); });
@@ -25,7 +24,7 @@ function colorPaint() {
 
   colorPicker.on("change", function() { colorValue = $(this).val(); });
 
-  $('.c-table__cell').click(function(event) {
+  $('.c-table__cell').mouseover(function(event) {
     $(this).css('background-color', colorValue);
     if (event.shiftKey) {
       $(this).css('background-color', '#fcfaf7');
@@ -34,6 +33,8 @@ function colorPaint() {
 }
 
 $('#js-submitButton').on('click', function(event) {
+  var widthValue = $('#js-inputWidth').val();
+  var heightValue = $('#js-inputHeight').val();
   event.preventDefault();
   makeGrid(heightValue, widthValue);
   colorPaint();
