@@ -18,4 +18,8 @@ Made with:
 * Sass / SCSS
 * jQuery
 
+### Demo
+[Live demo](https://mairamartinsk.github.io/pixel-art-maker/)
+[Code playground](https://codepen.io/mairamartinsk/pen/dZmXJq)
+
 ![Screenshot of the Pixel Art Maker Project](screenshot.png)
